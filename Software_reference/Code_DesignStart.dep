@@ -1,0 +1,3 @@
+Dependencies for Project 'Code', Target 'DesignStart': (DO NOT MODIFY !)
+F (.\main.c)(0x5CE2A8DF)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections-I D:\ARM2019\Software_reference\Software_reference\RTE-I E:\software\keil_mdk\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM3\Include-I E:\software\keil_mdk\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DARMCM3-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\cmdsasm.s)(0x5CD2CBD8)(--cpu Cortex-M3 --li -g --apcs=interwork -I D:\ARM2019\Software_reference\Software_reference\RTE-I E:\software\keil_mdk\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM3\Include-I E:\software\keil_mdk\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "ARMCM3 SETA 1"-o .\cmdsasm.o --depend .\cmdsasm.d)

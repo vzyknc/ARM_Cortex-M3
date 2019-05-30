@@ -1,0 +1,7 @@
+--cpu Cortex-M3
+".\main.o"
+".\cmdsasm.o"
+--strict --scatter ".\Code.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Code.map" -o .\Code.axf

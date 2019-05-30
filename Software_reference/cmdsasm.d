@@ -1,0 +1,1 @@
+.\cmdsasm.o: cmdsasm.s
