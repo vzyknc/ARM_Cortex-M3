@@ -1,0 +1,4 @@
+Dependencies for Project 'Code', Target 'DesignStart': (DO NOT MODIFY !)
+F (.\main.c)(0x5CCEDF7A)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections-I C:\Users\SKX\Desktop\ARM\Software_reference\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM3\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DARMCM3-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+F (.\cmdsasm.s)(0x5A684C22)(--cpu Cortex-M3 --li -g --apcs=interwork -I C:\Users\SKX\Desktop\ARM\Software_reference\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\Device\ARM\ARMCM3\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "ARMCM3 SETA 1"-o .\cmdsasm.o --depend .\cmdsasm.d)
