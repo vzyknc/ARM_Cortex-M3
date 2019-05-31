@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: fan qi, hubu, LIC=2TTCX-H9HCD-481FA-1PS5H-YJSCY-DJ6VH
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  E:\software\keil_mdk\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\lenovo\Desktop\Software_reference可以烧写_且hex为0000\Code.uvprojx
+Project File Date:  05/31/2019
+
+<h2>Output:</h2>
+Rebuild target 'DesignStart'
+compiling main.c...
+main.c(53): warning:  #177-D: variable "i" was declared but never referenced
+      unsigned char  i = 0;
+main.c: 1 warning, 0 errors
+assembling cmdsasm.s...
+linking...
+.\Code.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=536 RO-data=144 RW-data=0 ZI-data=4192  
+Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+After Build - User command #1: fromelf -cvf code.axf --vhx --32x1 -o code.hex
+After Build - User command #2: fromelf -cvf code.axf -o disasm.txt
+".\Code.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\lenovo\Desktop\Software_reference可以烧写_且hex为0000\RTE
+  E:\software\keil_mdk\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
